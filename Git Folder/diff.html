@@ -10,10 +10,17 @@
 <body>
     <h1 id="iggy">Hello World</h1>
 
-    <div id="test-element" style="height:600px; width:500px;background-image: url('https://i.natgeofe.com/n/c9107b46-78b1-4394-988d-53927646c72b/1095_3x2.jpg'); 
-        background-attachment: fixed; background-size: cover; background-repeat: no-repeat;">
+    <br />
 
-    </div>
+    <picture>
+        <source media="(min-width: 650px)"
+            srcset="https://i.natgeofe.com/n/c9107b46-78b1-4394-988d-53927646c72b/1095_3x2.jpg">
+        <source media="(min-width: 450px)"
+            srcset="https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png">
+
+        <img src="https://www.w3schools.com/html/img_food.jpg" style="width:auto;">
+    </picture>
+
 
 </body>
 

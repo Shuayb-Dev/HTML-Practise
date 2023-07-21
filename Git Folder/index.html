@@ -6,14 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testing</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <style>
-        body {
-            background-image: url('https://i.pinimg.com/736x/35/63/53/35635358f22a8b97bf51a67bdbc74920.jpg');
-            background-repeat: no-repeat;
-        }
-    </style>
-
 </head>
 
 <body style="background-color: powderblue;">
@@ -23,40 +15,19 @@
 
     <a href="https://youtube.com" target="_blank">Go To Youtube</a>
 
-
-
-
-
-
-
     <br />
     <br />
 
+    <p>With The picture element images change depending on the viewport size</p>
 
+    <picture>
+        <source media="(min-width:650px)"
+            srcset="https://media.istockphoto.com/id/1368193192/vector/retro-message-windows-pc-vintage-hipster-mail-cloud-1990s-technology-messages-interface.jpg?s=170667a&w=0&k=20&c=xJdeciG74RbGstcVyaxdgcPrew-HQiFkYKPILM3KFs4=">
+        <source media="(min-width:465px)"
+            srcset="https://p1.pxfuel.com/preview/126/1023/780/mailbox-vintage-mail-letter.jpg">
 
-    <br />
-    <br />
-    <br />
-
-    <!--With map tag it makes it so only certain parts of the image are clickable-->
-
-    <img src="https://cdn.vox-cdn.com/thumbor/ziEFgmJDOnPJC231zpvZsesOOsk=/0x0:1920x1080/1200x800/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/72009235/captain_pikachu.6.jpg"
-        alt="pika" title="pikapi" style="height:500px; width:500px;" usemap="#workmap" onclick="myFunction()" />
-
-    <script>
-        function myFunction() {
-            alert("You Clicked Me!")
-        }
-    </script>
-
-    <br>
-
-    <p
-        style="height:500px; width:500px; background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/402.png');">
-        Hello Its a me mario</p>
-
-
-    <br>
+        <img src="https://article-imgs.scribdassets.com/98opmn7b0garqptn/images/file6ACNCG3H.jpg" style="width:auto;"
+            </picture>
 
 
 
