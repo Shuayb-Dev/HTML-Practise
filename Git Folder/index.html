@@ -33,25 +33,9 @@
             background-color: #333333;
         }
 
-        .city {
-            background-color: tomato;
-            color: white;
-            width: 50%;
-            border: 1px solid black;
-            margin: 20px;
-            padding: 10px;
-        }
-
-        .More {
-            background-color: tomato;
-            width: 50%;
-            border: 1px solid black;
-            margin: 20px;
-            padding: 10px;
-        }
-
-        .One {
-            color: pink;
+        #important {
+            background-color: lightblue;
+            font-family: 'Times New Roman', Times, serif;
         }
     </style>
 
@@ -65,29 +49,16 @@
     </ul>
 </div>
 
-<div class="city">
-    <h2>London</h2>
-    <p>London is the capital of England.</p>
-</div>
+<h2 id="important">The ID is used to specify certain elements you want to apply styles too</h2>
 
-<div class="city">
-    <h2>Paris</h2>
-    <p>Paris is the capital of France.</p>
-</div>
+<h2 id="myheader">Id's can also be used for JavaScript</h2>
+<button onclick="changetext()">Change The Text</button>
 
-<div class="city">
-    <h2>Tokyo</h2>
-    <p>Tokyo is the capital of Japan.</p>
-</div>
-
-<div class="More One">
-    <h2>You can have more than one class in the same div???</h2>
-    <p>Mind Blown!</p>
-</div>
-
-
-
-
+<script>
+    function changetext() {
+        document.getElementById("myheader").innerHTML = "Like So, you see?"
+    }
+</script>
 
 
 
