@@ -33,14 +33,9 @@
             background-color: #333333;
         }
 
-        table,
-        th,
-        td {
-            border: 1px solid black
-        }
-
-        tr:nth-child(even) {
-            background-color: #D6EEEE;
+        #important {
+            background-color: lightblue;
+            font-family: 'Times New Roman', Times, serif;
         }
     </style>
 
@@ -54,30 +49,16 @@
     </ul>
 </div>
 
-<body style="background-color: powderblue;">
+<h2 id="important">The ID is used to specify certain elements you want to apply styles too</h2>
 
-    <br />
-    <br />
-    <h1 id="top" style="background-color: aqua;text-align: center;">Hello world</h1>
+<h2 id="myheader">Id's can also be used for JavaScript</h2>
+<button onclick="changetext()">Change The Text</button>
 
-
-
-    <a href="https://youtube.com" target="_blank">Go To Youtube</a>
-
-    <br />
-    <br />
-    <br />
-
-    <img src="/images/bunny.jpg" alt="A Funny Bunny" style="height: 300px; width:300px;">
-
-    <br />
-
-    <p>This is a block element meaning it starts on a new row and is given margin by the browser</p>
-
-    <p>However as we can see <span style="border:1px solid black;">Here</span> some elements are inline meaning they can
-        be used on the same line as block elements.</p>
-
-
+<script>
+    function changetext() {
+        document.getElementById("myheader").innerHTML = "Like So, you see?"
+    }
+</script>
 
 
 
