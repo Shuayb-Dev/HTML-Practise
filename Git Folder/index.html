@@ -49,23 +49,16 @@
     </ul>
 </div>
 
-<h2 id="important">The ID is used to specify certain elements you want to apply styles too</h2>
+<h2>A taste of JavaScript</h2>
 
-<h2 id="myheader">Id's can also be used for JavaScript</h2>
-<button onclick="changetext()">Change The Text</button>
-
-
-<br />
-<br />
-<iframe src="demo.htm" style="height:200px; width:300px;border-style:none; background-color: bisque;"
-    title="This is an example iframe"></iframe>
+<h3 id="test">JavaScript is used to dynamically change content on web pages</h3>
+<button onclick="getdate()">Show Date</button>
 
 <script>
-    function changetext() {
-        document.getElementById("myheader").innerHTML = "Like So, you see?"
+    function getdate() {
+        document.getElementById("test").innerHTML = new Date();
     }
 </script>
-
 
 
 </body>
