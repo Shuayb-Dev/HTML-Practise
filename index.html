@@ -1,66 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning HTML5</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <meta name="A webpage for practising HTML">
-    <meta author="Shuayb">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <meta name="A webpage for practising HTML" />
+    <meta author="Shuayb" />
 
     <style>
-        .nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333333;
+      .nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+      }
+
+      .nav li {
+        float: left;
+        list-style: none;
+      }
+
+      .nav li a {
+        overflow: hidden;
+        display: block;
+        padding: 16px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-size: 150%;
+        background-color: #333333;
+      }
+
+      .left {
+        background-color: #2196f3;
+        padding: 20px;
+        float: left;
+        width: 20%;
+      }
+      .main {
+        background-color: #f1f1f1;
+        padding: 20px;
+        float: left;
+        width: 53%; /* The width is 60%, by default */
+      }
+      .right {
+        background-color: #04aa6d;
+        padding: 20px;
+        float: left;
+        width: 20%; /* The width is 20%, by default */
+      }
+
+      @media screen and (max-width: 800px) {
+        .left,
+        .main,
+        .right {
+          width: 100%;
         }
-
-        .nav li {
-            float: left;
-            list-style: none;
-        }
-
-        .nav li a {
-            overflow: hidden;
-            display: block;
-            padding: 16px;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            font-size: 150%;
-            background-color: #333333;
-        }    
-        
-
-    
+      }
     </style>
+  </head>
 
-</head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
 
-<body>
-<div class="nav">
+    <h2>The Image Will Change Size Depending on browser width</h2>
 
-    <ul>
-        <li><a href='#home'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#contact'>Contact</a></li>
-    </ul>
-</div>
+    <div class="left">
+      <p>Left Menu</p>
+    </div>
 
-<h2>The Image Will Change Size Depending on browser width</h2>
+    <div class="main">Main Content</div>
 
-<picture>
-    <source srcset="https://cdn.euroflorist.com/Products/600x700/DE20SPRSF06M.jpg" title="A Demo Picture" media="(max-width: 1000px)">
-    <img src="/images/bunny.jpg" alt="A Bunny" title="A Bunny">
-  </picture>
-
-
-
-
-</body>
-
+    <div class="right">
+      <p>Right Menu</p>
+    </div>
+  </body>
 </html>
