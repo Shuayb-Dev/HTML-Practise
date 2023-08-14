@@ -33,37 +33,15 @@
             color: white;
             font-size: 150%;
             background-color: #333333;
-        }
+        }    
+        
 
-        #important {
-            background-color: lightblue;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        .list {
-            float: left;
-            width: 25.5%;
-            height: 300px;
-            background: #ccc;
-            padding: 20px;
-            font-size: 30px;
-            position: relative;
-            margin: 0%;
-        }
-
-        .biggy {
-            position: relative;
-            float: right;
-            padding: 20px;
-            width: 70%;
-            background-color: #f1f1f1;
-            height: 300px;
-            margin: 0%;
-
-        }
+    
     </style>
 
 </head>
+
+<body>
 <div class="nav">
 
     <ul>
@@ -73,42 +51,14 @@
     </ul>
 </div>
 
-<header style="  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;">
-    <h1>Here is an example of how webpages are layed out</h1>
-</header>
-<section>
-    <section class="list">
-        <ul style="list-style: none; padding:0px;">
-            <li>London</li>
-            <li>Tokyo</li>
-            <li>Paris</li>
-        </ul>
-    </section>
+<h2>The Image Will Change Size Depending on browser width</h2>
 
-    <article class="biggy">
-        <h3>London</h3>
-        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a
-            metropolitan
-            area of
-            over 13 million inhabitants.</p>
-        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to
-            its
-            founding by the Romans, who named it Londinium.</p>
-    </article>
-</section>
+<picture>
+    <source srcset="https://cdn.euroflorist.com/Products/600x700/DE20SPRSF06M.jpg" title="A Demo Picture" media="(max-width: 1000px)">
+    <img src="/images/bunny.jpg" alt="A Bunny" title="A Bunny">
+  </picture>
 
-<footer style="margin-top:20%;">
-    <div class="box-one" style="background-color: gray; height: 300px; width: 50%; text-align: center; float: left;">
-        Footer 1
-    </div>
-    <div class="box-two" style="background-color: yellow; height: 300px; width: 50%; text-align: center; float: left;">
-        Footer 2
-    </div>
-</footer>
+
 
 
 </body>
