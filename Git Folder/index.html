@@ -87,54 +87,54 @@ I am writing a div without the browser being confused about the tags
 
 <h2>He We Will Demonstrate A basic HTML form</h2>
 
-<form>
-    <label for="fname">First Name:</label><br />
-    <input type="text" id="fname" name="fname"><br />
-    <label for="lname">Last Name</label><br />
-    <input type="text" id="lname" name="lname"><br />
-    <br />
-    <input type="submit" value="submit">
-</form>
 
-<br />
+<label for="cars">Choose An option</label><br />
 
-<p>What is your favorite coding language</p>
-<form>
-    <input type="radio" id="html" value="html" name="fav_language"/>
-    <label for="html">Html</label><br />
-    <input type="radio" id="css" value="css" name="fav_language"/>
-    <label for="css">CSS</label><br />
-    <input type="radio" id="javascript" value="javascript" name="fav_language"/>
-    <label for="javascript">JavaScript</label><br />
-    <br />
-    <input type="submit" value="submit-form">
-</form>
-
-<p>How Did You Get To Work Today?</p>
-<form>
-    <input type="checkbox" id="car" name="transport1" value="car">
-    <label for="car">Car</label><br />
-    <input type="checkbox" id="bicycle" name="transport2" value="bicycle">
-    <label for="bicycle">Bicycle</label><br />
-    <input type="checkbox" id="walking" name="transport3" value="walking">
-    <label for="walking">Walking</label><br />
-    <br />
-    <input type="submit" value="submit">
-
-
+<form action="example.php">
+    <select id="cars" name="cars" size="2">
+        <option value="volvo">Volvo</option>
+        <option value="audi">Auidi</option>
+        <option value="ford">Ford</option>
+        <option value="vauxhall">Vauxhall</option>
+    </select>
 </form>
 
 <br />
 
 <form>
-    <label for="firstname">Enter First Name</label><br />
-    <input type="text" id="firstname" name="fname"><br />
-    <input type="radio" id="car" value="car" name="transport4">
-    <label for="car">Car</label><br />
-    <input type="checkbox" id="cola" value="cola" name="drink1">
-    <label for="cola">Type Of Drink</label><br />
+    <textarea rows="10" cols="30" name="review">Enter Your Review Here Please
+    </textarea>
     <input type="submit" value="submit">
 </form>
+
+<form>
+    <button type="button" onclick="alert('Hello World!')">Click Me</button>    
+</form>
+<br />
+<br />
+<form action="action/php">
+    <fieldset style="width:75%">
+        <legend>Enter Your Information</legend>
+        <label for="fname">Enter First Name</label><br />
+        <input type="text" id="firstname" name="firstname"><br />
+        <label for="lastname">Enter Last Name</label><br />
+        <input type="text" name="lastname" id="lastname"><br />
+        <br />
+        <input type="submit" value="submit">
+    </fieldset>
+</form>
+<br />
+<br />
+<form action="action.php">
+        <input type="list" name="browser">
+        <datalist id="browser">
+        <option value="chrome">
+        <option value="safari">
+        <option value="Microsoft Edge">    
+        </datalist>
+        <input type="submit">
+</form>
+    
 </body>
 
 </html>
