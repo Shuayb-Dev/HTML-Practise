@@ -1,140 +1,51 @@
 <!DOCTYPE html>
 
-<!--Enjoy Your Holidays Broski Imma Catch You Later-->
+
 <html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning HTML5</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/x-icon" href="favicon.png">
-    <meta name="A webpage for practising HTML">
-    <meta author="Shuayb">
 
-    <style>
-        .nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333333;
-        }
-
-        .nav li {
-            float: left;
-            list-style: none;
-        }
-
-        .nav li a {
-            overflow: hidden;
-            display: block;
-            padding: 16px;
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            font-size: 150%;
-            background-color: #333333;
-        }
-
-        #important {
-            background-color: lightblue;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        .list {
-            float: left;
-            width: 25.5%;
-            height: 300px;
-            background: #ccc;
-            padding: 20px;
-            font-size: 30px;
-            position: relative;
-            margin: 0%;
-        }
-
-        .biggy {
-            position: relative;
-            float: right;
-            padding: 20px;
-            width: 70%;
-            background-color: #f1f1f1;
-            height: 300px;
-            margin: 0%;
-
-        }
-    </style>
 
 </head>
-<div class="nav">
 
-    <ul>
-        <li><a href='#home'>Home</a></li>
-        <li><a href='#about'>About</a></li>
-        <li><a href='#contact'>Contact</a></li>
-    </ul>
-</div>
+<body>
 
-<h2>We Can right special characters with the entity tag</h2>
+    <h1>Hello World</h1>
 
-<p>For an example here we have &lt;div&gt;
-<br />
-I am writing a div without the browser being confused about the tags
-</p>
+    <p>We Are Going Back to the basics</p>
 
-<h2>Html also supports emojis when you specify &lt;meta charset=&quot;UTF-8&quot;&gt; </h2>
-<p style="font-size:40px;">&#128525; &#127462 &#128064</p>
+    <form action="method.php">
+        <label for="fname">Please Enter Your First Name</label>
+        <br />
+        <input type="text" name="fname" id="fname">
+    </form>
 
-<h2>He We Will Demonstrate A basic HTML form</h2>
-
-
-<label for="cars">Choose An option</label><br />
-
-<form action="example.php">
-    <select id="cars" name="cars" size="2">
-        <option value="volvo">Volvo</option>
-        <option value="audi">Auidi</option>
-        <option value="ford">Ford</option>
-        <option value="vauxhall">Vauxhall</option>
-    </select>
-</form>
-
-<br />
-
-<form>
-    <textarea rows="10" cols="30" name="review">Enter Your Review Here Please
-    </textarea>
-    <input type="submit" value="submit">
-</form>
-
-<form>
-    <button type="button" onclick="alert('Hello World!')">Click Me</button>    
-</form>
-<br />
-<br />
-<form action="action/php">
-    <fieldset style="width:75%">
-        <legend>Enter Your Information</legend>
-        <label for="fname">Enter First Name</label><br />
-        <input type="text" id="firstname" name="firstname"><br />
-        <label for="lastname">Enter Last Name</label><br />
-        <input type="text" name="lastname" id="lastname"><br />
+    <form action="method.php">
+        <br />
+        <input type="radio" name="transport" id="ford" value="ford">
+        <label for="transport">Ford</label>
+    </form>
+    <br />
+    <form action="method.php">
+        <label for="choices">Please Select Your Choice</label>
+        <br />
+        <select id="choices" name="choices[]" multiple>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+            <option value="option4">Option 4</option>
+        </select>
         <br />
         <input type="submit" value="submit">
-    </fieldset>
-</form>
-<br />
-<br />
-<form action="action.php">
-        <input type="list" name="browser">
-        <datalist id="browser">
-        <option value="chrome">
-        <option value="safari">
-        <option value="Microsoft Edge">    
-        </datalist>
-        <input type="submit">
-</form>
-    
+    </form>
+
+
+
+
 </body>
-<!--Begging uuu-->>
+
+
+
+
+
 </html>
