@@ -4,7 +4,8 @@
 <html lang="en-us">
 
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -29,7 +30,7 @@
     <form action="method.php">
         <label for="choices">Please Select Your Choice</label>
         <br />
-        <select id="choices" name="choices[]" multiple>
+        <select id="choices" name="choices[]">
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
             <option value="option3">Option 3</option>
@@ -39,6 +40,19 @@
         <input type="submit" value="submit">
     </form>
 
+    <br />
+    <form action="/method.php">
+        <label for="browsers">Please Select The Browser You Are Using</label>
+        <br />
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </form>
 
 
 
