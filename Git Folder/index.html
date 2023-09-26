@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="home.png" />
   </head>
 
   <body>
@@ -50,5 +51,25 @@
       </datalist>
     </form>
     <h1>Hello And Lets Get Started With Todays lessons</h1>
+
+    <form action="/example.action.php">
+      <label for="fname" name="fname_label">Please Enter Your First Name</label>
+      <input type="text" name="fname" id="fname" />
+      <br />
+      <label for="password" name="password_label"
+        >Please Enter Your password</label
+      >
+      <input type="password" name="password" id="password" />
+      <br />
+
+      <input type="radio" name="ford" value="ford" id="ford" />
+      <label for="ford">Ford</label>
+      <br />
+      <label for="favcolor">Please Select Your Favourite Color</label>
+      <input type="color" name="favcolor" id="color" value="#000000" />
+
+      <br />
+      <input type="reset" value="reset" />
+    </form>
   </body>
 </html>
