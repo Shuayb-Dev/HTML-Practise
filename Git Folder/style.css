@@ -1,19 +1,18 @@
-a:link,
-a:visited {
-  background-color: #f44336;
-  padding: 15px 24px;
-  text-decoration: none;
-  color: black;
-  font-size: 130%;
-  font-family: "Courier New", Courier, monospace;
+body {
+  background-color: lightblue;
 }
 
-a:hover,
-a:active {
-  background-color: red;
-  padding: 15px 24px;
-  text-decoration: none;
-  color: black;
-  font-size: 130%;
-  font-family: "Courier New", Courier, monospace;
+h1{
+  text-align: center;
 }
+
+.example{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size:30px;
+  color:brown;
+}
+
+/* 
+This is a multi line css comment
+
+/
