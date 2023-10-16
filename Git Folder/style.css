@@ -1,26 +1,32 @@
+/* CSS file for index.html*/
+
 body {
   background-color: lightblue;
 }
 
-h1{
+h1 {
   text-align: center;
 }
 
-.example{
+.example {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size:30px;
-  color:brown;
+  font-size: 30px;
+  color: brown;
 }
 
-.example_two h2{
-  color:tomato;
+.example_two {
+  height: 300px;
+  width: 50%;
+  margin: 0px auto;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-.example_two p{
-  color:rgb(238, 130, 238);
+.example_two h2 {
+  color: tomato;
+  text-align: center;
 }
 
-/* 
-This is a multi line css comment
-and thats how it is done
-*
+.example_two p {
+  color: rgb(255, 7, 7);
+  text-align: center;
+}
