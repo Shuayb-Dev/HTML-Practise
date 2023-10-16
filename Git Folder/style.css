@@ -12,7 +12,15 @@ h1{
   color:brown;
 }
 
+.example_two h2{
+  color:tomato;
+}
+
+.example_two p{
+  color:rgb(238, 130, 238);
+}
+
 /* 
 This is a multi line css comment
-
-*/
+and thats how it is done
+*
