@@ -2,6 +2,9 @@
 
 body {
   background-color: lightblue;
+  background-image: url(./images/Symbol-Linux.jpg);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 h1 {
@@ -18,7 +21,6 @@ h1 {
   height: 300px;
   width: 50%;
   margin: 0px auto;
-  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .example_two h2 {
