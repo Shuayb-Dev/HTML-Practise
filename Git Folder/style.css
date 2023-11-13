@@ -1,34 +1,16 @@
-/* CSS file for index.html*/
-
 body {
-  background-color: lightblue;
-  background-image: url(./images/Symbol-Linux.jpg);
-  background-repeat: no-repeat;
-  background-position: right top;
+  background-color: #121212;
 }
 
-h1 {
-  text-align: center;
+.intro {
+  height: 200px;
+  width: 700px;
+  border-style: dashed;
+  border-width: 10px;
+  border-color: blue;
 }
 
-.example {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
-  color: brown;
-}
-
-.example_two {
-  height: 300px;
-  width: 50%;
-  margin: 0px auto;
-}
-
-.example_two h2 {
-  color: tomato;
-  text-align: center;
-}
-
-.example_two p {
-  color: rgb(255, 7, 7);
-  text-align: center;
+.intro h1,
+p {
+  color: red;
 }
