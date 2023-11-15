@@ -16,11 +16,13 @@ body {
 }
 
 .test {
-  height: 50px;
+  height: 150px;
   width: 700px;
   border: solid 10px yellow;
   margin-top: 100px;
   margin-left: 600px;
+  padding-top: 20px;
+  box-sizing: border-box;
 }
 
 .test p {
