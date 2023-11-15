@@ -1,4 +1,34 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #fce1ba;
+}
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: #a5420a;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.navbar img {
+  margin-top: 5px;
+  height: 80px;
+  width: 70px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  float: right;
+  box-sizing: border-box;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 10px;
+  font-family: "Indie Flower", cursive;
+  font-size: 160%;
 }
