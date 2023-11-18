@@ -4,18 +4,18 @@ body {
   background-color: #fce1ba;
 }
 
+.navbar img {
+  margin-top: 5px;
+  height: 80px;
+  width: 70px;
+}
+
 .navbar {
   height: 80px;
   width: 100%;
   background-color: #a5420a;
   margin: 0%;
   box-sizing: border-box;
-}
-
-.navbar img {
-  margin-top: 5px;
-  height: 80px;
-  width: 70px;
 }
 
 .navbar ul {
@@ -28,8 +28,8 @@ body {
 
 .navbar li {
   display: inline-block;
-  margin: 10px;
+  margin: 0px 15px;
   font-family: "Indie Flower", cursive;
   font-size: 160%;
-  margin-right: 40px; /* Adjust this value based on your preference */
+  margin-right: 400px;
 }
