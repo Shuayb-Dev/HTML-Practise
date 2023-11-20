@@ -30,3 +30,16 @@ body {
   color: white;
   text-align: center;
 }
+
+.size {
+  height: 300px;
+  max-width: 500px;
+  border: solid 10px red;
+  margin-left: 600px;
+}
+
+.size h3,
+p {
+  color: white;
+  text-align: center;
+}
