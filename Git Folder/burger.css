@@ -5,7 +5,7 @@ body {
 }
 
 .navbar img {
-  margin-top: 5px;
+  margin-top: -10px;
   height: 80px;
   width: 70px;
 }
@@ -32,4 +32,37 @@ body {
   font-family: "Indie Flower", cursive;
   font-size: 160%;
   margin-right: 400px;
+}
+
+.banner-one {
+  background-image: url("./images/burger_one.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 400px;
+  margin-top: -16px;
+}
+
+.banner-one p {
+  float: left;
+  margin-left: 60px;
+  font-family: "Holtwood One SC", serif;
+  color: white;
+  font-size: 250%;
+}
+
+.banner-two {
+  background-image: url("./images/burger_two.jpg");
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.banner-two p {
+  float: left;
+  margin-left: 60px;
+  font-family: "Holtwood One SC", serif;
+  color: white;
+  font-size: 250%;
 }
